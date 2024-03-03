@@ -1,3 +1,4 @@
+Import-Module FudgeModule
 if (!($env:FudgeCI)) {
     if (Test-Path 'assets/fudge/FudgeCI.ps1') {
         $env:FudgeCI = 'assets/fudge/'
